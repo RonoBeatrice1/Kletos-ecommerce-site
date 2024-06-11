@@ -1,8 +1,23 @@
+// const productdetails = () => {
+//   return (
+//     <div>productdetails</div>
+//   )
+// }
 
-const productdetails = () => {
+// export default productdetails
+
+import ProductDetails from "../components/productdetailscomponents/ProductDetails";
+import NavBar from "../../src/components/layout/NavBar";
+
+const ProductDetailPage = () => {
   return (
-    <div>productdetails</div>
-  )
-}
+    <div>
+      <NavBar />
+      <main>
+        <ProductDetails />
+      </main>
+    </div>
+  );
+};
 
-export default productdetails
+export default ProductDetailPage;
