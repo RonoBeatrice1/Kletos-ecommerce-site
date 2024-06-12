@@ -1,12 +1,10 @@
-import "../../css/layoutcss/navbar.css";
-
-// src/layout/NavBar.jsx
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUser,
   faShoppingCart,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
+import "../../css/layoutcss/navbar.css";
 
 const Navbar = () => {
   return (
@@ -26,7 +24,7 @@ const Navbar = () => {
           <div className="menu-item">
             <a href="/shop">Shop</a>
             <div className="sublinks">
-              <a href="/artifacts">Artifacts</a>
+              <a href="/artifacts">Artefacts</a>
               <a href="/crafts">Crafts</a>
               <a href="/shields">Shields</a>
               <a href="/calabashes">Calabashes</a>

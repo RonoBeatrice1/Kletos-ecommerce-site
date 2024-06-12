@@ -1,11 +1,16 @@
-import ProductImages from "./ProductImages";
 import ProductInfo from "./ProductInfo";
-import "../../css/productdetailscss/productdetails.css";
+import "../../css/layoutcss/navbar.css";
 
 const ProductDetails = () => {
   return (
-    <div className="product-details">
-      <ProductImages />
+    <div className="product-details-container">
+      <div className="product-image-container">
+        <img
+          src="public/images/1.jpg"
+          alt="Product"
+          className="main-product-image"
+        />
+      </div>
       <ProductInfo />
     </div>
   );
