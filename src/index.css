@@ -1,9 +1,9 @@
-:root {
+/* :root {
   --background-color: ;
   --primary-color: gold;
   --secondary-color: whitesmoke;
   --link-color: #0000EE;
-}
+} */
 
 * {
   margin: 0px;
@@ -30,22 +30,22 @@ button:hover {
 }
 
 a:link {
-    color: #1E90FF; /* DodgerBlue */
+  color: #1e90ff; /* DodgerBlue */
 }
 
 /* Visited link */
 a:visited {
-    color: #9400D3; /* DarkViolet */
+  color: #9400d3; /* DarkViolet */
 }
 
 /* Hover link */
 a:hover {
-    color: #FF4500; /* OrangeRed */
+  color: #ff4500; /* OrangeRed */
 }
 
 /* Active link */
 a:active {
-    color: #FF6347; /* Tomato */
+  color: #ff6347; /* Tomato */
 }
 
 /*Dont Change */
