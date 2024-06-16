@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&display=swap");
+
+.footer {
+  background-color: black;
+  padding: 40px 0;
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 20px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-column a {
+  display: block;
+  color: rgb(243, 220, 11);
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.footer-column a:hover {
+  text-decoration: white;
+}
+
+.newsletter-signup {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.newsletter-signup h3 {
+  margin-bottom: 10px;
+}
+
+.newsletter-signup form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-signup input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.newsletter-signup button {
+  padding: 2x0px 20px;
+  border: none;
+  background-color: rgb(194, 176, 16);
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.newsletter-signup button:hover {
+  background-color: #eebe65;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.social-media-icons a {
+  margin: 0 10px;
+}
+
+.social-media-icons svg {
+  height: 24px;
+  width: 24px;
+  color: #333;
+}
+
+.social-media-icons a:hover svg {
+  color: whitesmoke;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.payment-methods img {
+  height: 24px;
+  margin-right: 10px;
+}
