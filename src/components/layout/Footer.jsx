@@ -13,8 +13,8 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-column">
           <h3>ABOUT US</h3>
-          <a href="/story">Our Story</a>
           <a href="/commitment">Sustainability Commitment</a>
+          <a href="/story">Our Story</a>
           <a href="/careers">Careers</a>
           <a href="/press">Press & Media</a>
         </div>
@@ -30,13 +30,13 @@ const Footer = () => {
           <h3>ACCOUNT & ORDERS</h3>
           <a href="/tracking">Order Tracking</a>
           <a href="/account">Manage Account</a>
-          <a href="/order-history">Order Histoey</a>
+          <a href="/order-history">Order History</a>
           <a href="/addresses">Addresses</a>
         </div>
         <div className="footer-column">
           <h3>SPECIAL PROGRAMS</h3>
+          <a href="/seasonal-offers">Seasonal Offers</a>
           <a href="/loyalty">Loyalty Program</a>
-          <a href="/seasonal-promotions">Seasonal Promotions</a>
           <a href="/affiliate">Affiliate Program</a>
         </div>
       </div>
@@ -64,15 +64,9 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>© 2024 Kletos. All rights reserved.</p>
         <div className="payment-methods">
-          <img
-            src="/path-to-your-payment-method-icons/paypal.png"
-            alt="PayPal"
-          />
-          <img src="/path-to-your-payment-method-icons/visa.png" alt="Visa" />
-          <img
-            src="/path-to-your-payment-method-icons/mastercard.png"
-            alt="MasterCard"
-          />
+          <img src="" alt="M-pesa" />
+          <img src="" alt="Paypal" />
+          <img src="" alt="MasterCard" />
           {/* Add more payment icons as needed */}
         </div>
       </div>
