@@ -1,23 +1,24 @@
-//css
+// css
 import "../css/customerauthcss/customerauthpage.css";
-//pages
+// pages
 import CustomerSignInComponent from "../components/customerauthcomponents/CustomerSignInComponent";
 import CustomerRegisterComponent from "../components/customerauthcomponents/CustomerRegisterComponent";
 import { useState } from "react";
 
-const customerauth = () => {
-  //Helps toggle the components
+// Rename function to start with an uppercase letter
+const CustomerAuth = () => {
+  // Helps toggle the components
   const [toggle, setToggle] = useState(false);
 
   return (
     <div className="customer-auth-page flex-col">
       {toggle ? (
-        <CustomerRegisterComponent onToggle={(e) => setToggle(!toggle)} />
+        <CustomerRegisterComponent onToggle={() => setToggle(!toggle)} />
       ) : (
-        <CustomerSignInComponent onToggle={(e) => setToggle(!toggle)} />
+        <CustomerSignInComponent onToggle={() => setToggle(!toggle)} />
       )}
     </div>
   );
 };
 
-export default customerauth;
+export default CustomerAuth;

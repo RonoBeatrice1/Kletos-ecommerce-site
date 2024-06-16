@@ -1,21 +1,17 @@
-// const productdetails = () => {
-//   return (
-//     <div>productdetails</div>
-//   )
-// }
-
-// export default productdetails
-
+// src/pages/ProductDetailPage.jsx
 import ProductDetails from "../components/productdetailscomponents/ProductDetails";
-import NavBar from "../../src/components/layout/NavBar";
+import Navbar from "../components/layout/NavBar";
+import Footer from "../components/layout/Footer";
 
 const ProductDetailPage = () => {
   return (
     <div>
-      <NavBar />
-      <main>
+      <Navbar />
+      <main style={{ paddingTop: "550px" }}>
+        {/* Add padding to ensure content doesn't overlap with fixed navbar */}
         <ProductDetails />
       </main>
+      <Footer />
     </div>
   );
 };
