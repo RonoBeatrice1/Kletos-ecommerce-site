@@ -28,8 +28,8 @@ const Footer = () => {
         </div>
         <div className="footer-column">
           <h3>ACCOUNT & ORDERS</h3>
-          <a href="/tracking">Order Tracking</a>
           <a href="/account">Manage Account</a>
+          <a href="/tracking">Order Tracking</a>
           <a href="/order-history">Order History</a>
           <a href="/addresses">Addresses</a>
         </div>
