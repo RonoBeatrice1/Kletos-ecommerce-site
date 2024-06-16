@@ -7,7 +7,7 @@ const ProductDetailPage = () => {
   return (
     <div>
       <Navbar />
-      <main style={{ paddingTop: "550px" }}>
+      <main style={{ paddingTop: "650px" }}>
         {/* Add padding to ensure content doesn't overlap with fixed navbar */}
         <ProductDetails />
       </main>
