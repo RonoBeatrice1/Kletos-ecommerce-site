@@ -3,172 +3,65 @@ body {
   font-family: "Kumbh Sans", sans-serif;
 }
 
-.sneaker-image {
-  position: relative;
-}
-
-.sneaker-image > img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.sneaker-image button {
-  position: absolute;
-  top: 40%;
-  border-radius: 50%;
-  border: none;
+.product-details-container {
   display: flex;
+  gap: 40px;
+  padding: 40px;
   justify-content: center;
   align-items: center;
-  width: 30px;
-  height: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
 }
 
-.sneaker-image #next-image {
-  right: 15px;
+.product-image-container {
+  max-width: 500px;
 }
 
-.sneaker-image #previous-image {
-  left: 15px;
+.main-product-image {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  /* border-radius: 8px; */
 }
 
-.sneaker-image button img {
-  height: 15px;
+.product-details {
+  max-width: 500px;
 }
 
-.sneaker-details {
-  padding: 15px;
-}
-
-.sneaker-details > * {
+.product-details > * {
   margin-bottom: 16px;
 }
 
-.sneaker-details .company {
-  color: hsl(26, 100%, 55%);
-  text-transform: uppercase;
-}
-
-.sneaker-details .description {
-  color: hsl(216, 2%, 56%);
-}
-
-.prices {
-  margin: 25px 0;
-  padding: 0;
-}
-
-.prices .current {
+.product-name {
+  font-size: 24px;
   font-weight: bold;
-  font-size: 30px;
-  margin: 0 5px;
+  color: black;
 }
 
-.prices .discount {
+.price {
   font-size: 20px;
   font-weight: bold;
-  padding: 5px 5px;
-  color: hsl(26, 100%, 55%);
-  margin-bottom: 10px;
-  background-color: rgba(255, 178, 35, 0.3);
+  color: #b87333;
 }
 
-.prices .previous {
-  font-size: 20px;
-  font-weight: bold;
-  margin-right: 0;
-  margin-left: 40px;
-  color: rgb(210, 207, 207);
-  text-decoration: line-through;
+.description {
+  color: black;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.sneaker-details .counter {
-  display: flex;
-  justify-content: space-between;
-  background-color: hsl(223, 64%, 98%);
-  border-radius: 9px;
-  padding: 16px;
-  font-weight: bold;
-}
-
-.sneaker-details .counter button {
-  border: none;
-}
-
-.sneaker-details .count-error {
-  text-align: center;
-  color: hsl(26, 100%, 55%);
-  font-size: 13px;
-}
-
-.sneaker-details .add-to-cart-btn {
+.add-to-cart-btn {
   border: none;
   width: 100%;
-  padding: 16px;
+  padding: 14hogjpx;
   color: white;
-  background-color: hsl(26, 100%, 55%);
+  background-color: black;
   font-size: 20px;
   font-weight: bold;
-  border: none;
   border-radius: 9px;
-}
-
-.sneaker-details .add-to-cart-btn img {
-  margin-right: 10px;
-  color: white;
-}
-
-.thumbnails img {
-  height: 65px;
-  width: 65px;
-  margin-right: 20px;
-  display: inline;
-  border-radius: 5px;
-}
-
-@media screen and (min-width: 700px) {
-  main {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin: 20px auto;
-  }
-
-  .sneaker-image {
-    flex: 1 0 0;
-    max-width: 400px;
-    margin-left: 100px;
-    margin-bottom: 25px;
-  }
-
-  .sneaker-details {
-    flex: 1 0 0;
-    max-width: 400px;
-  }
-
-  .sneaker-image > img {
-    border-radius: 6px;
-  }
-
-  .sneaker-image button {
-    display: none;
-  }
-
-  .thumbnails {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .thumbnail {
-    flex: 1;
-    max-width: 70px;
-    width: 25%;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .thumbnails {
-    display: none;
-  }
+  cursor: pointer;
+  text-align: center;
+  height: 50px;
 }
